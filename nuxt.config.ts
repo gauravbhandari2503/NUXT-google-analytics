@@ -1,12 +1,12 @@
-import GoogleAnalytics from '@nuxtjs/google-analytics';
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
   buildModules: [
     '@nuxt/typescript-build',
-    GoogleAnalytics,
+    '@nuxtjs/google-analytics',
   ],
   googleAnalytics: {
-    id:  process.env.GOOGLE_ANALYTICS_ID,
+    id:  'G-S6VCY6TKFK',
+    dev: true
   },
 })
